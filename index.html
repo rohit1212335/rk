@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix - Your Movie Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional: Add icon library like Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">MovieFlix</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Genres</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search movies...">
+                <button id="searchButton">Search</button>
+                <!-- Or use an icon: <button id="searchButton"><i class="fas fa-search"></i></button> -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section (Optional) -->
+        <section class="hero">
+            <div class="hero-content container">
+                <h2>Featured Movie Title</h2>
+                <p>A short, captivating description of the featured movie goes here. Watch now!</p>
+                <a href="#" class="btn btn-primary">Watch Trailer</a>
+                <a href="#" class="btn">More Info</a>
+            </div>
+        </section>
+
+        <!-- Movie Grid Section -->
+        <section id="movie-grid-section" class="container">
+            <h2>Popular Movies</h2>
+            <div class="movie-grid" id="movieGrid">
+                <!-- Movie cards will be loaded here (statically or dynamically) -->
+
+                <!-- Example Static Movie Card -->
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/300x450/000000/FFFFFF/?text=Movie+Poster+1" alt="Movie Title 1">
+                    <div class="movie-info">
+                        <h3>Movie Title 1</h3>
+                        <span class="rating">8.5</span>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/300x450/111111/FFFFFF/?text=Movie+Poster+2" alt="Movie Title 2">
+                    <div class="movie-info">
+                        <h3>Movie Title 2</h3>
+                        <span class="rating">7.9</span>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/300x450/222222/FFFFFF/?text=Movie+Poster+3" alt="Movie Title 3">
+                    <div class="movie-info">
+                        <h3>Movie Title 3</h3>
+                        <span class="rating">9.1</span>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/300x450/333333/FFFFFF/?text=Movie+Poster+4" alt="Movie Title 4">
+                    <div class="movie-info">
+                        <h3>Movie Title 4</h3>
+                        <span class="rating">6.8</span>
+                    </div>
+                </div>
+
+                 <div class="movie-card">
+                    <img src="https://via.placeholder.com/300x450/444444/FFFFFF/?text=Movie+Poster+5" alt="Movie Title 5">
+                    <div class="movie-info">
+                        <h3>Movie Title 5</h3>
+                        <span class="rating">8.0</span>
+                    </div>
+                </div>
+
+                 <div class="movie-card">
+                    <img src="https://via.placeholder.com/300x450/555555/FFFFFF/?text=Movie+Poster+6" alt="Movie Title 6">
+                    <div class="movie-info">
+                        <h3>Movie Title 6</h3>
+                        <span class="rating">7.2</span>
+                    </div>
+                </div>
+                <!-- Add more static movie cards as needed -->
+
+            </div>
+        </section>
+
+        <!-- Add more sections as needed (e.g., Upcoming, Top Rated) -->
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 MovieFlix. All rights reserved.</p>
+            <!-- Add social media links or other footer content here -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
